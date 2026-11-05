@@ -1,0 +1,19 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-mono: ui-monospace, 'JetBrains Mono', 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  background: #0a0b0d;
+  color-scheme: dark;
+  overflow: hidden;
+}
+
+* {
+  border-radius: 0 !important;
+}
